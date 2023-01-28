@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>
+			Simple web application
+		</title>
+	</head>
+	<body>
+		<h1> hellow world </h1>
+		<input type = text id = 'namme'>  </input>
+		<button id = 'subbbmit' onclick = 'sub()' > Submit </button>
+		<p id = displayy> </p>
+		
+		<script type = 'text/javascript'>
+			function sub(){
+				String name = document.getElementById('namme').value;
+				String ans = 'Hellow world" + name;
+				document.getElementById('displayy').innerHTML = ans;
+			}
+		</script>
+		
+	</body>
+</html>
+
